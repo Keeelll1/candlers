@@ -1,0 +1,1765 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Yeseva+One&display=swap');
+
+body{
+    margin: 0 auto;
+    color: #000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.container{
+    max-width: 1180px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+p{
+    margin: 0;
+}
+
+.menu-btn{
+    display: none;
+    width: 30px;
+    height: 25px;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-btn span{
+    height: 1px;
+    background-color: #7B6152;
+    width: 100%;
+}
+
+/* header */
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.menu-list{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.menu-list-link{
+    text-transform: uppercase;
+}
+
+.phone{
+    position: relative;
+}
+.phone::before{
+    content: '';
+    position: absolute;
+    background-image: url(/images/phone-icon.svg);
+    width: 20px;
+    height: 20px;
+    left: -23px;
+    top: -3px;
+}
+
+/* main */
+
+.main{
+    background-color: #FFF8F3;
+    overflow-x: clip;
+}
+
+/* top selection */
+
+.top{
+    padding: 40px 0 150px;
+}
+
+.top-inner{
+    position: relative; 
+}
+
+.top-content{
+    width: 371px;
+    padding: 150px 0 250px;
+}
+
+.top-title{
+    font-size: 30px;
+    font-family: 'Yeseva One' bold;
+    margin-bottom: 15px;
+}
+
+.top-text{
+    margin-bottom: 48px;
+}
+
+.top-buy{
+    background-color: #FFBD59;
+    padding: 18px 54px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.top-img{
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+
+/* about */
+
+.about{
+    background-color: #A5978E;
+}
+
+.about-inner{
+    color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    padding-bottom: 50px;
+}
+
+.about-content{
+    min-width: 370px;
+}
+
+.about-text{
+    font-size: 14px;
+}
+
+.about-title{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.about-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+    margin: 0;
+    position: relative;
+}
+
+.about-list::before{
+    content: '';
+    position: absolute;
+    left: -110px;
+    bottom: 0px;
+    background-image: url(/images/about-decor.png);
+    width: 22px;
+    height: 30px;
+}
+
+.about-list::after{
+    content: '';
+    position: absolute;
+    left: -90px;
+    bottom: 10px;
+    background-color: #7B6152;
+    width: 1000%;
+    height: 1px;
+}
+
+.about-item{
+    margin-bottom: 10px;
+}
+
+.about-item-text{
+    font-size: 11px;
+    margin: 0;
+}
+
+/* product */
+
+.product-inner{
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 160px;
+    gap: 70px;
+}
+
+.product-content-left{
+    min-width: 372px;
+}
+
+.product-title{
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.product-text{
+    font-size: 14px;
+}
+
+.content-item-first-row{
+    display: flex;
+    gap: 93px;
+    margin-bottom: 50px;
+}
+
+.content-item-second-row{
+    display: flex;
+    gap: 93px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.content-item{
+    width: 290px;
+}
+
+.content-item-img{
+    display: flex;
+    margin: 0 auto;
+}
+
+.content-item-price{
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.content-item-title{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.content-item-text{
+    margin-bottom: 27px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.content-item-btn{
+    background-color: #FFBD59;
+    padding: 18px 54px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    margin: 0 auto;
+}
+
+.content-item-second-row::before{
+    content: '';
+    position: absolute;
+    left: -110px;
+    bottom: -90px;
+    background-image: url(/images/about-decor.png);
+    width: 22px;
+    height: 30px;
+}
+
+.content-item-second-row::after{
+    content: '';
+    position: absolute;
+    left: -90px;
+    bottom: -80px;
+    background-color: #7B6152;
+    width: 1000%;
+    height: 1px;
+}
+
+/* stages-of-creation */
+
+.stages-inner{
+    display: flex;
+    gap: 20px;
+}
+
+.stages-content-left{
+    max-width: 370px;
+}
+
+.stages-title{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.stages-text{
+    font-size: 14px;
+}
+
+.stages-content-right{
+    display: flex;
+    gap: 26px;
+    position: relative;
+}
+
+.stages-content-item{
+    display: flex;
+    gap: 39px;
+    width: 370px;
+    height: 220px;
+    margin-bottom: 70px;
+}
+
+.stages-content-item-text{
+    width: 174px;
+    font-size: 14px;
+}
+
+.stages-content-number{
+    color: #BEA495;
+    font-size: 30px;
+    font-family: Yeseva One;
+    position: absolute;
+    bottom: 0;
+}
+
+.stages-content-right::before{
+    content: '';
+    position: absolute;
+    left: -22px;
+    bottom: 0px;
+    background-image: url(/images/about-decor.png);
+    width: 22px;
+    height: 30px;
+}
+
+.stages-content-right::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    background-color: #7B6152;
+    width: 1000%;
+    height: 1px;
+}
+
+.stages-content-item-text-wrapper{
+    position: relative;
+}
+
+.stages-content-number-right{
+    position: absolute;
+    right: 0;
+}
+
+/* courses */
+
+    .courses-inner{
+        display: flex;
+        padding-top: 160px;
+        gap: 74px;
+        font-family: Yeseva One;
+    }
+
+    .courses-item{
+        width: 269px;
+    }
+
+    .courses-top-img{
+        width: 268px;
+        height: 366px;
+        background: url(/images/courses-img-1.png) center center/cover no-repeat;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 28px;
+    }
+
+    .corses-left-wrapper{
+        width: 369px;
+    }
+
+    .courses-title{
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+
+    .courses-text{
+        font-size: 14px;
+    }
+
+    .courses-item-img-text{
+        color: #FFF;
+        font-size: 11px;
+        background-color: #BEA495;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .courses-item-text-first{
+        width: 191px;
+        height: 43px;
+        position: absolute;
+        top: 166px;
+    }
+
+    .courses-item-text-second{
+        width: 129px;
+        height: 27px;
+        position: absolute;
+        top: 224px;
+    }
+
+    .courses-item-text-third{
+        width: 86px;
+        height: 50px;
+        position: absolute;
+        right: -15px;
+        bottom: -8px;
+    }
+
+    .courses-item-title{
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .courses-item-text{
+        font-size: 14px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .courses-item-btn{
+        background-color: #FFBD59;
+        padding: 13px 16px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .courses-right{
+        display: flex;
+        gap: 125px;
+        padding-bottom: 83px;
+        position: relative;
+    }
+
+    .courses-right::before{
+        content: '';
+        position: absolute;
+        left: -75px;
+        bottom: 0px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .courses-right::after{
+        content: '';
+        position: absolute;
+        left: -53px;
+        bottom: 10px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+/* teacher */
+
+    .teacher{
+        background-color: #A5978E;
+    }
+
+    .teacher-inner{
+        margin-top: 160px;
+        color: #FAFAFA;
+        display: flex;
+        gap: 40px;
+        padding-top: 50px;
+        padding-bottom: 83px;
+    }
+
+    .teacher-content-item-text-wrapper{
+        background-color: #7B6152;
+        width: 162px;
+        height: 70px;
+    }
+
+    .teacher-title{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .teacher-text{
+        width: 391px;
+        font-size: 14px;
+    }
+
+    .teacher-content-item{
+        position: relative;
+        margin-bottom: 78px;
+    }
+
+    .teacher-content-item:last-child{
+        margin-bottom: 0px;
+    }
+
+    .teacher-content-item-text-wrapper{
+        text-align: center;
+        padding-top: 14px;
+        align-items: center;
+        position: absolute;
+        bottom: 8px;
+        right: -102px;
+    }
+
+    .teacher-content-item-title{
+        font-size: 14px;
+    }
+
+    .teacher-content-item-text{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 144px;
+    }
+
+    .teacher-right{
+        display: flex;
+        gap: 177px;
+    }
+
+/* feedback */
+
+    .feedback-slider{
+        width: 760px;
+        overflow: hidden;
+    }
+
+    .feedback-inner{
+        display: flex;
+        gap: 18px;
+        padding-top: 150px;
+        padding-bottom: 110px;
+    }
+
+    .feedback-title{
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+
+    .feedback-text{
+        font-size: 14px;
+        width: 374px;
+    }
+
+    .feedback-item{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        position: relative;
+    }
+
+    .feedback-item-social-link{
+        padding-bottom: 12px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .feedback-item-name{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .feedback-item-text{
+        font-size: 14px;
+        padding-bottom: 63px;
+    }
+
+    .feedback-button{
+        font-size: 14px;
+        background-color: #FFBD59;
+        padding: 20px 35px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .feedback-right{
+        position: relative;
+    }
+
+    .feedback-right::before{
+        content: '';
+        position: absolute;
+        left: -22px;
+        bottom: -110px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .feedback-right::after{
+        content: '';
+        position: absolute;
+        left: 0px;
+        bottom: -100px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    padding: 40px 0 35px 0;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 230px;
+}
+
+.footer-social{
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+
+@media (max-width: 1000px){
+    .container{
+        padding: 0 20px;
+    }
+
+    .top-content{
+        width: 333px;
+        padding: 95px 0 70px;
+    }
+
+    .top-img{
+        left: 300px;
+    }
+
+    .top-big-img{
+        width: 655px;
+    }
+
+    .about-inner{
+        gap: 20px;
+        padding-bottom: 58px;
+    }
+
+    .about-content{
+        min-width: 300px;
+    }
+
+    .about-list::before{
+        content: '';
+        position: absolute;
+        left: -22px;
+        bottom: 0px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .about-list::after{
+        content: '';
+        position: absolute;
+        left: 0px;
+        bottom: 10px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .product-inner{
+        gap: 20px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .product-content-left{
+        min-width: 300px;
+    }
+
+    .product-text{
+        font-size: 10px;
+    }
+
+    .content-item-first-row{
+        gap: 67px;
+    }
+
+    .content-item-second-row{
+        gap: 67px;
+        margin-bottom: 50px;
+    }
+
+    .content-item-second-row::before{
+        content: '';
+        position: absolute;
+        left: -22px;
+        bottom: -60px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .content-item-second-row::after{
+        content: '';
+        position: absolute;
+        left: 0px;
+        bottom: -50px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .stages-inner{
+        gap: 25px;
+    }
+
+    .stages-content-left{
+        width: 298px;
+        gap: 15px;
+    }
+
+    .stages-content-right{
+        gap: 34px;
+        padding-bottom: 70px;
+    }
+
+    .stages-content-item{
+        width: 300px;
+        margin-bottom: 37px;
+        gap: 31px;
+    }
+
+    .stages-content-item-text{
+        width: 141px;
+    }
+
+    .stages-content-item-img{
+        width: 128px;
+    }
+
+    .courses-inner{
+        padding-top: 166px;
+        gap: 31px;
+    }
+
+    .corses-left-wrapper{
+        width: 300px;
+    }
+
+    .courses-right{
+        gap: 77px;
+    }
+
+    .courses-right::before{
+        content: '';
+        position: absolute;
+        left: -25px;
+        bottom: 0px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .courses-right::after{
+        content: '';
+        position: absolute;
+        left: -3px;
+        bottom: 10px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .teacher-inner{
+        gap: 10px;
+        padding: 50px 20px;
+    }
+
+    .teacher-text{
+        width: 290px;
+    }
+
+    .teacher-right{
+        gap: 120px;
+    }
+
+    .teacher-content-item{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 900px){
+    .footer-inner{
+        flex-wrap: wrap;
+    }
+
+    .footer-contacts{
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .footer-social{
+        justify-content: center;
+    }
+
+    .product-content-left{
+        max-width: 300px;
+    }
+
+    .content-item{
+        width: 200px;
+    }
+
+    .content-item-img{
+        width: 188px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        font-size: 10px;
+    }
+    
+    .container{
+        max-width: 640px;
+        padding: 0;
+    }
+
+    .header-inner{
+        gap: 39px;
+    }
+
+    .phone::before{
+        background-size: cover;
+        width: 14px;
+        height: 14px;
+        left: -16px;
+        top: -2px;
+    }
+
+    .top-content{
+        width: 230px;
+    }
+
+    .top-title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .top-text{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .top-buy{
+        padding: 15px 30px;
+    }
+
+    .top-img{
+        left: 180px;
+    }
+
+    .about-inner{
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about-content{
+        min-width: 200px;
+    }
+
+    .about-title{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .about-text{
+        font-size: 10px;
+    }
+
+    .about-list{
+        padding-bottom: 20px;
+    }
+
+    .about-item{
+        margin-bottom: 6px;
+    }
+
+    .about-item-text{
+        font-size: 6px;
+    }
+
+    .about-list{
+        gap: 10px;
+    }
+
+    .about-list::before{
+        content: '';
+        position: absolute;
+        left: -22px;
+        bottom: -10px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .about-list::after{
+        content: '';
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .about-item-1{
+        width: 120px;
+        height: 120px;
+    }
+
+    .about-item-2{
+        width: 190px;
+        height: 195px;
+    }
+
+    .about-item-3{
+        width: 120px;
+        height: 120px;
+    }
+
+    .product-inner{
+        gap: 30px;
+        padding-top: 150px;
+        padding-bottom: 161px;
+    }
+
+    .product-content-left{
+        min-width: 200px;
+    }
+
+    .content-item-first-row{
+        gap: 16px;
+        margin-bottom: 30px;
+    }
+
+    .content-item-second-row{
+        gap: 16px;
+    }
+
+    .product-title{
+        font-size: 15px;
+    }
+
+    .product-text{
+        font-size: 10px;
+    }
+
+    .content-item-second-row::before{
+        content: '';
+        position: absolute;
+        left: 0px;
+        bottom: -60px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .content-item-second-row::after{
+        content: '';
+        position: absolute;
+        left: 22px;
+        bottom: -50px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .content-item-price{
+        font-size: 12px;
+        margin: 5px 0 6px;
+    }
+
+    .content-item-title{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .content-item-text{
+        font-size: 8px;
+        margin-bottom: 19px;
+    }
+
+    .content-item-btn{
+        padding: 15px 30px;
+        font-size: 12px;
+    }
+
+    .stages-inner{
+        gap: 12px;
+    }
+
+    .stages-content-left{
+        width: 191px;
+    }
+
+    .stages-content-right{
+        gap: 35px;
+    }
+
+    .stages-title{
+        font-size: 15px;
+    }
+
+    .stages-text{
+        font-size: 10px;
+    }
+
+    .stages-content-item{
+        width: 200px;
+        height: 150px;
+        gap: 20px;
+    }
+
+    .stages-content-item-text{
+        max-width: 94px;
+    }
+
+    .stages-content-item-text{
+        font-size: 8px;
+    }
+
+    .stages-content-number{
+        font-size: 20px;
+    }
+
+    .stages-content-first-column{
+        gap: 25px;
+    }
+
+    .stages-content-second-column{
+        gap: 25px;
+    }
+
+    .stages-content-item-img{
+        width: 85px;
+    }
+
+    .stages-content-right::before{
+        content: '';
+        position: absolute;
+        left: 25px;
+        bottom: -10px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .stages-content-right::after{
+        content: '';
+        position: absolute;
+        left: 47px;
+        bottom: 0px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .courses-inner{
+        padding-top: 159px;
+        gap: 0px;
+    }
+
+    .courses-item{
+        width: 223px;
+        height: 380px;
+    }
+
+    .courses-top-img{
+        width: 190px;
+        height: 255px;
+    }
+
+    .courses-item-img-wrapper{
+        width: 190px;
+        height: 255px;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .courses-item-img-text{
+        font-size: 9px;
+    }
+
+    .courses-item-text-first{
+        width: 132px;
+        height: 30px;
+    }
+
+    .courses-item-text-second{
+        width: 89px;
+        height: 20px;
+    }
+
+    .courses-item-text-third{
+        width: 60px;
+        height: 35px;
+    }
+
+    .courses-item-title{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .courses-item-text{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .courses-item-btn{
+        font-size: 12px;
+        padding: 13px 16px;
+    }
+
+    .courses-right{
+        gap: 40px;
+    }
+
+    .courses-title{
+        font-size: 15px;
+    }
+
+    .courses-text{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .courses-right::before{
+        content: '';
+        position: absolute;
+        left: 32px;
+        bottom: 0px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .courses-right::after{
+        content: '';
+        position: absolute;
+        left: 54px;
+        bottom: 10px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .teacher-inner{
+        gap: 8px;
+        padding: 50px 0 52px 0;
+    }
+
+    .teacher-right{
+        gap: 81px;
+    }
+
+    .teacher-title{
+        font-size: 15px;
+    }
+
+    .teacher-text{
+        font-size: 10px;
+        width: 193px;
+    }
+
+    .techer-img{
+        width: 143px;
+        height: 155px;
+    }
+
+    .teacher-content-item-text-wrapper{
+        width: 106px;
+        height: 50px;
+    }
+
+    .teacher-content-item-title{
+        font-size: 8px;
+        margin-bottom: 2px;
+    }
+
+    .teacher-content-item-text{
+        font-size: 6px;
+        width: 94px;
+    }
+
+    .teacher-content-item-text-wrapper{
+        padding-top: 9px;
+        position: absolute;
+        bottom: 5px;
+        right: -67px;
+    }
+}
+
+@media (max-width: 640px){
+    .container{
+        padding: 0 10px;
+    }
+
+    .header-menu{
+        order: 1;
+    }
+
+    .header-menu-list{
+        min-width: 153px;
+        background-color: #7B6152;
+        color: #FFF8F3;
+        flex-direction: column;
+        margin: 0;
+        gap: 20px;
+        padding: 25px 35px 25px 45px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateY(-150%);
+        transition: transform .5s ease;
+        z-index: 5;
+    }
+
+    .header-menu-list.menu-open{
+        transform: translateY(0%);
+    }
+
+    .menu-btn{
+        display: flex;
+    }
+
+    .about-inner{
+        padding-bottom: 40px;
+    }
+
+    .about-item{
+        margin: 0;
+    }
+    
+    .about-item-text{
+        display: none;
+    }
+
+    .product-inner{
+        gap: 30px;
+        padding-top: 150px;
+        padding-bottom: 161px;
+    }
+
+    .product-content-left{
+        min-width: 150px;
+    }
+
+    .courses-inner{
+        padding-top: 160px;
+    }
+
+    .courses-right{
+        gap: 10px;
+    }
+
+    .courses-text{
+        width: 150px;
+    }
+}
+
+@media (max-width: 500px){
+    .top{
+        padding: 20px 0 50px;
+    }
+    
+    .top-content{
+        width: 179px;
+    }
+
+    .top-title{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .top-text{
+        font-size: 8px;
+        margin-bottom: 15px;
+        line-height: 12px;
+    }
+
+    .top-buy{
+        padding: 11px 23px;
+        font-size: 10px;
+    }
+
+    .top-img{
+        left: 167px;
+    }
+
+    .top-big-img{
+        width: 309px;
+    }
+
+    .footer{
+        padding: 50px 0;
+        font-size: 14px;
+    }
+   
+    .footer-inner{
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .footer-menu-list{
+        flex-direction: column;
+    }
+
+    .about-inner{
+        gap: 17px;
+    }
+
+    .about-list{
+        gap: 5px;
+    }
+
+    .about-content{
+        min-width: 171px;
+        padding: 50px 0 50px;
+    }
+
+    .about-item{
+        margin: 0;
+    }
+
+    .about-item-1{
+        width: 80px;
+        height: 80px;
+    }
+
+    .about-item-2{
+        width: 140px;
+        height: 140px;
+    }
+
+    .about-item-3{
+        width: 80px;
+        height: 80px;
+    }
+
+    .about-list::before{
+        content: '';
+        position: absolute;
+        left: -10px;
+        bottom: 0px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .about-list::after{
+        content: '';
+        position: absolute;
+        left: 11px;
+        bottom: 9px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .product-inner{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .product-content-left{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .content-item-first-row{
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-item-second-row{
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-inner{
+        gap: 16px;
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .content-item-btn{
+        padding: 11px 23px;
+        font-size: 10px;
+    }
+
+    .stages-inner{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .stages-content-left{
+        margin: 0 auto;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .stages-content-right{
+        margin: 0 auto;
+    }
+
+    .stages-content-right::before{
+        content: '';
+        position: absolute;
+        left: 0px;
+        bottom: -10px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .stages-content-right::after{
+        content: '';
+        position: absolute;
+        left: 22px;
+        bottom: 0px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .courses-inner{
+        padding-top: 60px;
+        flex-direction: column;
+    }
+
+    .corses-left-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .courses-text{
+        width: 300px;
+    }
+
+    .courses-right{
+        padding-top: 30px;
+    }
+
+    .teacher-inner{
+        margin-top: 60px;
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 10px 50px 10px;
+    }
+
+    .teacher-left{
+        text-align: center;
+    }
+
+    .teacher-text{
+        display: flex;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .teacher-right{
+        justify-content: start;
+    }
+}
+
+@media (max-width: 360px){
+    .top{
+        padding: 0 0 50px;
+    }
+
+    .top-content{
+        width: 203px;
+        padding: 20px 0 0;
+    }
+
+    .top-title{
+        font-size: 18px;
+    }
+
+    .top-text{
+        font-size: 10px;
+    }
+
+    .top-img{
+        left: 200px;
+    }
+
+    .top-big-img{
+        width: 150px;
+    }
+
+    .about-inner{
+        gap: 25px;
+        padding-bottom: 0;
+    }
+
+    .about-content{
+        min-width: 233px;
+        padding: 25px 0 39px;
+    }
+
+    .about-text{
+        font-size: 8px;
+    }
+
+    .about-item{
+        margin: 0;
+    }
+
+    .about-item-2{
+        display: none;
+    }
+
+    .about-item-3{
+        display: none;
+    }
+
+    .about-list::before{
+        content: '';
+        position: absolute;
+        left: -10px;
+        bottom: -20px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .about-list::after{
+        content: '';
+        position: absolute;
+        left: 11px;
+        bottom: -10px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .product-inner{
+        gap: 25px;
+    }
+
+    .product-content-left{
+        width: 235px;
+    }
+
+    .product-title{
+        margin-bottom: 10px;
+    }
+
+    .content-item-img{
+        width: 141px;
+    }
+
+    .content-item-price{
+        font-size: 10px;
+        margin: 5px 0;
+    }
+
+    .content-item-title{
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+
+    .content-item-text{
+        font-size: 6px;
+        margin-bottom: 23px;
+    }
+
+    .content-item-btn{
+        font-size: 8px;
+        padding: 10px 23px;
+    }
+
+    .stages-inner{
+        gap: 25px;
+    }
+
+    .stages-content-right{
+        gap: 30px;
+    }
+
+    .stages-content-item{
+        width: 155px;
+        height: 100px;
+        gap: 16px;
+    }
+
+    .stages-content-item-text{
+        width: 72px;
+        font-size: 6px;
+    }
+
+    .stages-content-number{
+        font-size: 12px;
+    }
+
+    .stages-content-item-img{
+        width: 66px;
+    }
+
+    .stages-content-first-column{
+        gap: 25px;
+    }
+
+    .stages-content-second-column{
+        gap: 25px;
+    }
+
+    .courses-right{
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .courses-right::before{
+        content: '';
+        position: absolute;
+        left: -55px;
+        bottom: 0px;
+        background-image: url(/images/about-decor.png);
+        width: 22px;
+        height: 30px;
+    }
+    
+    .courses-right::after{
+        content: '';
+        position: absolute;
+        left: -33px;
+        bottom: 10px;
+        background-color: #7B6152;
+        width: 1000%;
+        height: 1px;
+    }
+
+    .teacher-right{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .teacher-content-item{
+        width: 204px;
+        height: 220px;
+        margin-bottom: 20px;
+    }
+
+    .techer-img{
+        width: 204px;
+        height: 220px;
+    }
+
+    .teacher-content-item-text-wrapper{
+        width: 151px;
+        height: 70px;
+        right: -95px;
+        bottom: 8px;
+    }
+
+    .teacher-content-item-title{
+        font-size: 11px;
+    }
+
+    .teacher-content-item-text{
+        font-size: 9px;
+        width: 135px;
+    }
+
+    .teacher-title{
+        margin-bottom: 10px;
+    }
+
+    .teacher-text{
+        width: 200px;
+    }
+}
