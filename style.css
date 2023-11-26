@@ -87,7 +87,7 @@ p{
 .phone::before{
     content: '';
     position: absolute;
-    background-image: url(/images/phone-icon.svg);
+    background-image: url(images/phone-icon.svg);
     width: 20px;
     height: 20px;
     left: -23px;
@@ -181,7 +181,7 @@ p{
     position: absolute;
     left: -110px;
     bottom: 0px;
-    background-image: url(/images/about-decor.png);
+    background-image: url(images/about-decor.png);
     width: 22px;
     height: 30px;
 }
@@ -284,7 +284,7 @@ p{
     position: absolute;
     left: -110px;
     bottom: -90px;
-    background-image: url(/images/about-decor.png);
+    background-image: url(images/about-decor.png);
     width: 22px;
     height: 30px;
 }
@@ -351,7 +351,7 @@ p{
     position: absolute;
     left: -22px;
     bottom: 0px;
-    background-image: url(/images/about-decor.png);
+    background-image: url(images/about-decor.png);
     width: 22px;
     height: 30px;
 }
@@ -391,7 +391,7 @@ p{
     .courses-top-img{
         width: 268px;
         height: 366px;
-        background: url(/images/courses-img-1.png) center center/cover no-repeat;
+        background: url(images/courses-img-1.png) center center/cover no-repeat;
         position: relative;
         z-index: 1;
         margin-bottom: 28px;
@@ -477,7 +477,7 @@ p{
         position: absolute;
         left: -75px;
         bottom: 0px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -622,7 +622,7 @@ p{
         position: absolute;
         left: -22px;
         bottom: -110px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -642,7 +642,7 @@ p{
     }
 
     .swiper-pagination-bullet{
-        background-color: #BEA495 !important;
+        background-color: #BEA495 !important; 
         width: 53px !important;
         height: 4px !important;
         border-radius: 0 !important;
@@ -740,7 +740,7 @@ p{
         position: absolute;
         left: -22px;
         bottom: 0px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -783,7 +783,7 @@ p{
         position: absolute;
         left: -22px;
         bottom: -60px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -844,7 +844,7 @@ p{
         position: absolute;
         left: -25px;
         bottom: 0px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -899,7 +899,7 @@ p{
         position: absolute;
         left: 3px;
         bottom: -93px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -1026,7 +1026,7 @@ p{
         position: absolute;
         left: -22px;
         bottom: -10px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -1088,7 +1088,7 @@ p{
         position: absolute;
         left: 0px;
         bottom: -60px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -1178,7 +1178,7 @@ p{
         position: absolute;
         left: 25px;
         bottom: -10px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -1268,7 +1268,7 @@ p{
         position: absolute;
         left: 32px;
         bottom: 0px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -1553,7 +1553,7 @@ p{
         position: absolute;
         left: -10px;
         bottom: 0px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -1620,7 +1620,7 @@ p{
         position: absolute;
         left: 0px;
         bottom: -10px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -1757,7 +1757,7 @@ p{
         position: absolute;
         left: -10px;
         bottom: -20px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -1854,7 +1854,7 @@ p{
         position: absolute;
         left: -55px;
         bottom: 0px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
@@ -1935,7 +1935,7 @@ p{
         position: absolute;
         left: 3px;
         bottom: -88px;
-        background-image: url(/images/about-decor.png);
+        background-image: url(images/about-decor.png);
         width: 22px;
         height: 30px;
     }
