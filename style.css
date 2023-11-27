@@ -1423,10 +1423,12 @@ p{
         transform: translateY(-150%);
         transition: transform .5s ease;
         z-index: 5;
+        opacity: 0;
     }
 
-    .header-menu-list.menu-open{
+    .header-menu-list.active{
         transform: translateY(0%);
+        opacity: 1;
     }
 
     .menu-btn{
